@@ -16,6 +16,7 @@
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    display: flex;
 }
 
 .header-link, .flavour-text{
@@ -27,6 +28,7 @@
 .header-navbar{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 ul{
@@ -37,8 +39,8 @@ ul{
 .links, .logo{
     display: flex;
     width: 50%;
-    justify-content: center;
     align-items: center;
+    justify-content: center; 
 }
 
 h1{
@@ -50,10 +52,12 @@ h1{
 .header-content{
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
-.header-flavour-text, .header-image{
+.header-image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +65,28 @@ h1{
     width: 50%;
 }
 
-img{
-    margin: 50px;
+.header-flavour-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.flavour-text{
+    margin-right: 4%;
+}
+.header-image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header-signup-btn{
+    background-color: #3882f6;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border:#3882f6;
+    border-radius: 10px;
 }
