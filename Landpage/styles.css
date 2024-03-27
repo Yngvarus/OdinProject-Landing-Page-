@@ -90,3 +90,42 @@ h1{
     border:#3882f6;
     border-radius: 10px;
 }
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.illustration-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxes-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    border: 3px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.box-subtext{
+    text-align: center;
+    font-size: 18px;
+}
