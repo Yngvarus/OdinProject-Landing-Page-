@@ -199,3 +199,26 @@ h4{
     border:3px solid #f9faf8;
     border-radius: 10px;
 }
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 12 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.credits{
+    display: flex;
+    flex-direction: row;
+}
+
+.credit-block{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: lighter;
+}
