@@ -84,7 +84,7 @@ h1{
 
 .header-signup-btn{
     background-color: #3882f6;
-    color: white;
+    color:  #f9faf8;
     width: 200px;
     height: 40px;
     border:#3882f6;
@@ -152,4 +152,50 @@ h2{
     font-size: 18px;
     font-weight: bolder;
     margin-left: 20%;
+}
+
+.call-action-container{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-container{
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    color: #f9faf8;
+}
+
+h4{
+    font-size: 24px;
+}
+.cta-text{
+    font-size: 18px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cta-btn{
+    background-color: #3882f6;
+    color:  #f9faf8;
+    width: 100px;
+    height: 40px;
+    border:3px solid #f9faf8;
+    border-radius: 10px;
 }
